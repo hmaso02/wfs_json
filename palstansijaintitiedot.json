@@ -1,0 +1,22 @@
+{
+    "type": "wfslayer",
+    "url": "https://sopimus-paikkatieto.maanmittauslaitos.fi/kiinteisto/wfs2/2019-02/ows",
+    "name": "ktjkiiwfs:PalstanSijaintitiedot",
+    "version": "2.0.0",
+    "organization": "MML",
+    "inspiretheme": "Background maps",
+    "locale": {
+        "fi": {
+            "name": "Palstan sijaintitiedot",
+            "subtitle": ""
+        }
+    },
+    "role_permissions": {
+        "Guest" : ["VIEW_LAYER", "VIEW_PUBLISHED"],
+        "User" : ["VIEW_LAYER", "VIEW_PUBLISHED", "PUBLISH"],
+        "Admin" : ["VIEW_LAYER", "VIEW_PUBLISHED", "PUBLISH"]
+    },
+    "srs_name": "EPSG:3067",
+    "username": "*****",
+    "password": "*****"
+}
